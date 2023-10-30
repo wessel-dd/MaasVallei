@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
-h1 {
+.login-form h1 {
     color: blue;
+}
+
+.register-form h1 {
+    color: red;
 }
