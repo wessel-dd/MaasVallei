@@ -3,3 +3,84 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  width: 100%;
+  font-size: 18px;
+  background-color: rgb(246, 238, 238);
+}
+
+.navlinks {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 20%
+}
+
+.navlinks a {
+  padding-left: 40px;
+}
+
+.navrechts {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  height: 100%;
+  width: 45%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+}
+
+.boven {
+  display: flex;
+  flex-direction: row;
+}
+
+.bovenlinks {
+  height: 100%;
+  width: 50%;
+}
+
+.bovenlinks p {
+  padding: 200px;
+  padding-left: 360px;
+}
+
+.bovenrechts {
+  height: 100%;
+  width: 50%;
+}
+
+.onder {
+  display: flex;
+  flex-direction: row;
+}
+
+.onderlinks {
+  height: 100%;
+  width: 50%;
+}
+
+.onderrechts {
+  height: 100%;
+  width: 50%;
+}
+
+.onderrechts p {
+  padding: 200px;
+  padding-left: 360px;
+}
